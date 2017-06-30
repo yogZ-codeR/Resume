@@ -23,8 +23,9 @@ footer {
   position: relative;
   border-radius: 50%;
   margin: 5px auto;
-  background-image: url('http://www.reddraft.com/img/Hero-bg.jpg');
+  background-image: url('/images/Propic.jpg');
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /*#photo:hover {
