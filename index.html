@@ -53,7 +53,7 @@
     <div class="heads" id="exp">
       <h2 class="heading">Work Experience </h2>
       <ul class="explist">
-        <li ng-repeat="exp in experience"> <span class="exptitle"> {{exp.title}}</span> <span class="expyear"> {{exp.year}}</span>
+        <li ng-repeat="exp in experience"> <span class="exptitle"> {{exp.title}} @ {{exp.organisation}}</span> <span class="expyear"> {{exp.year}}</span>
           <ul class="expdesc">
             <li ng-repeat="work in exp.works"> {{work}} </li>
           </ul>
