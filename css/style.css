@@ -6,13 +6,11 @@ body {
 footer {
   margin-top: 50px;
   padding-top: 10px;
-  height: 100px;
+  /*height: 100px;*/
 }
 
-
-
 #home {
-  height: 550px;
+  /*height: 550px;*/
   padding-top: 50px;
   padding-bottom: 35px;
 }
@@ -61,7 +59,7 @@ footer {
 
 #name {
   font-family: 'Indie Flower', cursive;
-  font-size: 5em;
+  font-size: 4.5em;
   position: relative;
   display: flex;
   justify-content: center;
@@ -93,9 +91,10 @@ font-size: 1.25em;
 }
 
 .heads {
-  height: auto;
-  padding-top: 50px;
+  /*height: auto;*/
+  padding-top: 40px;
   font-size: 1.15em;
+  clear: both;
 }
 
 
@@ -103,9 +102,10 @@ font-size: 1.25em;
   padding-top: 60px;
 }
 
-/*.links {
-  margin-top: 20px;
-}*/
+.links {
+  padding-top: 10px;
+  margin-top: 10px;
+}
 /*
 #languages {
   height: auto;
