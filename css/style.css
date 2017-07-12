@@ -133,7 +133,9 @@ font-size: 1em;
 }
 
 .toolTypeList {
-  display:inline-flex;
+  /*display:inline-flex;*/
+  display: flex;
+  flex-wrap: wrap;
   text-align: -webkit-match-parent;
   list-style: none;
   padding: 0;
