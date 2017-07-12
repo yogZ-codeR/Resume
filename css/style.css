@@ -12,7 +12,7 @@ footer {
 #home {
   /*height: 550px;*/
   padding-top: 50px;
-  padding-bottom: 35px;
+  padding-bottom: 20px;
 }
 
 #photo {
@@ -68,23 +68,23 @@ footer {
 
 #mail{
   float: left;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 #tel {
 float: right;
-font-size: 1.25em;
+font-size: 1em;
 }
 
 #resume {
   font-size: 1.15em;
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
 }
 
 #home > p {
   font-size: 2em;
-  float: left;
+  /*float: left;*/
   clear: both;
   font-family: cursive;
   text-align: center;
