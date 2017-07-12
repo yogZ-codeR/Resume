@@ -1,0 +1,169 @@
+body {
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 10px;
+  height: 100px;
+}
+
+
+
+#home {
+  height: 550px;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+#photo {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+  margin: 5px auto;
+  background-image: url('/images/Propic.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*#photo:hover {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  border-radius: 50%;
+  margin: 5px auto;
+  background-image: url('http://www.reddraft.com/img/Hero-bg.jpg');
+  background-size: contain;
+  transform: scale(2,1.5);
+  transition-duration: 3s;
+}*/
+
+#navhead {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+}
+
+#navhead:hover {
+  /*text-transform: uppercase;*/
+  transform: rotateY(360deg);
+  transition: all .5s ease;
+
+}
+
+
+.headss:hover{
+  transform: rotate(360deg);
+  transition: all .5s ease;
+  transition-delay: .25s;
+}
+
+#name {
+  font-family: 'Indie Flower', cursive;
+  font-size: 5em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+#mail{
+  float: left;
+  font-size: 1.25em;
+}
+
+#tel {
+float: right;
+font-size: 1.25em;
+}
+
+#resume {
+  font-size: 1.15em;
+  display: flex;
+  justify-content: center;
+}
+
+#home > p {
+  font-size: 2em;
+  float: left;
+  clear: both;
+  font-family: cursive;
+  text-align: center;
+}
+
+.heads {
+  height: auto;
+  padding-top: 50px;
+  font-size: 1.15em;
+}
+
+
+#exp {
+  padding-top: 60px;
+}
+
+/*.links {
+  margin-top: 20px;
+}*/
+/*
+#languages {
+  height: auto;
+  padding-top: 50px;
+  font-size: 1.15em;
+}
+
+#tools {
+  height: auto;
+  padding-top: 50px;
+}*/
+#exp>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.exptitle {
+  font-size: 1.45em;
+}
+
+.expyear {
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+.toolTypeList {
+  display:inline-flex;
+  text-align: -webkit-match-parent;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toolTypeList > li {
+  margin-right: 40px;
+  padding: 0;
+  font-size: 1.25em;
+  /*margin: 0;*/
+  /*background-color: yellow;*/
+}
+
+
+.toolTypeList > li > ul {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.toolType > li {
+  /*display: list-item;*/
+  /*text-align: -webkit-match-parent;*/
+  font-size: 0.85em;
+  margin: 0;
+  padding: 0;
+  /*background-color: red;*/
+}
+
+.heading {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #999;
+}

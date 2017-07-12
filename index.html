@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Yoga Vignesh - Resume </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <script src="js/core.js"></script>
+  <script src="js/controller.js"></script>
+</head>
+<body data-spy="scroll" data-target="#scroll-id">
+<div ng-app="resumeApp" ng-controller="resumeCtrl" class='container'>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid" id="scroll-id">
+      <div class="nav-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" id="navhead" href="#home">Yoga Vignesh</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="headss" href="#exp">Experience</a></li>
+          <li><a class="headss" href="#languages">Language</a></li>
+          <li><a class="headss" href="#tools">Tools</a></li>
+          <li><a class="headss" href="#education">Education</a></li>
+          <li><a class="headss" href="#honours">Mentions</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="innercontainer">
+    <div id="home" role="banner">
+      <div id="photo">
+      </div>
+      <h2 id="name">Yoga Vignesh N</h2> <br>
+      <p>An aspiring Frontend Developer whose sense of technology and organisational adaptability exudes finesse</p>
+        <div class="links">
+          <a href="mailto:nyogavignesh@gmail.com" id="mail"><i class="fa fa-envelope" aria-hidden="true"> nyogavignesh@gmail.com
+          </i></a>
+          <a href="tel:+918039130252" id="tel"><i class="fa fa-phone" aria-hidden="true"> +91-8939130252</i></a>
+        </div>
+    </div>
+    <div class="heads" id="exp">
+      <h2 class="heading">Work Experience </h2>
+      <ul class="explist">
+        <li ng-repeat="exp in experience"> <span class="exptitle"> {{exp.title}}</span> <span class="expyear"> {{exp.year}}</span>
+          <ul class="expdesc">
+            <li ng-repeat="work in exp.works"> {{work}} </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="heads" id="languages">
+      <h2 class="heading"> Languages </h2>
+      <ul>
+        <li ng-repeat="lang in languages"> {{lang}} </li>
+    </div>
+    <div class="heads" id="tools">
+      <section class="Tools">
+        <h2 class="heading">Tools </h2>
+        <ul class="toolTypeList">
+          <li id="toolname" ng-repeat="tool in tools"> {{tool.name}}
+            <ul class="toolType">
+              <li ng-repeat="type in tool.type"> {{type}} </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="heads" id="education">
+      <h2 class="heading"> Education </h2>
+      <ul>
+        <li ng-repeat="edu in education">{{edu.course}} - {{edu.name}} - {{edu.year}} </li>
+      </ul>
+    </div>
+    <div class="heads" id="honours">
+      <h2 class="heading"> Awards & Honours </h2>
+      <ul>
+        <li ng-repeat="honor in honours"> {{honor}} </li>
+      </ul>
+    </div>
+    <div class="heads" id="extra">
+      <h2 class="heading"> Other Mentions </h2>
+      <ul>
+        <li ng-repeat="extra in extras"> {{extra}} </li>
+      </ul>
+    </div>
+</div>
+<footer>
+  <p id="resume">You can also download a copy of the "
+  <a href="doc/resume.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"> Resume</i></a> "</p>
+</footer>
+</div>
+</body>
+</html>
