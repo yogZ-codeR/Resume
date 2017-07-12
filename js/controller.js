@@ -50,7 +50,8 @@ angular.module('resumeController',[]).controller('resumeCtrl',['$scope', functio
         "Working as part of production team of a golden data repository application in mainframe and web platform for Morgan Stanley.",
         "Worked on creating and maintaining AngularJS based web application.",
         "Worked in automation of various reports and created documentation.",
-        "Provided Training to Junior Engineer and constant learning about product information."
+        "Provided Training and timely feedbacks to Junior Engineers.",
+        "Constant learning about product information."
       ]
     }
   ];
@@ -59,13 +60,13 @@ angular.module('resumeController',[]).controller('resumeCtrl',['$scope', functio
     "Won an “On the Spot Award” for effective incident management during a production outage.",
     "Was part of team winning the “Star Team Award” for overall performance.",
     "Won 1st place in paper presentation on “Multi Purpose Robot” in DMI College of Engineering.",
-    "Won 3rd place in paper presentation on “Multi Purpose Robot” in Sri Andal Azhagar College of Engineering."
+    "Won 3rd place in paper presentation on “Multi Purpose Robot” in Sri Andal Azhagar College of Engineering.",
+    "Ranked as Cadet in NCC.",
   ];
 
   $scope.extras = [
     "Won 1st place in Movie Making at Project level competition.",
     "Head of Organizing Team of technical symposium Warros13.",
-    "Ranked as a Cadet in National Cadet Corps.",
     "Won 2nd place in Miming at intra-college level."
   ];
 
